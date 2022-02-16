@@ -5,8 +5,7 @@
 }
 
 body{
-    background-color: black;
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: grey;
 }
 
@@ -34,7 +33,7 @@ div[class="btn-right"]{
     width: 200px;
     height: 30px;
     margin-top: 2px;
-    padding: 5px ;
+    padding: 2px ;
     text-align: center;
     border: 2px solid white;
     border-radius: 20px;
@@ -51,6 +50,31 @@ div[class="btn-right"] a{
 
 main{
     background-color: #141922;
+}
+
+div[class="recently-song"]{
+    width: 150px;
+    height: ;
+    padding: 50px;
+    display: inline-block;
+    text-align: center;
+}
+img[alt="heavy-metal"]{
+    width: 150px;
+    height: auto;
+}
+
+.top-nav ul li{
+    margin-top: 60px;
+    padding: 2px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    left: 30%;
+}
+.top-nav a{
+    text-decoration: none;
+    color: grey;
 }
 
 aside{
